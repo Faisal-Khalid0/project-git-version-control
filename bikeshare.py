@@ -6,6 +6,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+def multiply(a,b):
+    return a * b
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -112,6 +115,7 @@ def station_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
 
 
 def trip_duration_stats(df):
