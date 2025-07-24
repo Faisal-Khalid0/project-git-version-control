@@ -9,6 +9,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 def multiply(a,b):
     return a * b
 
+def divide(a,b):
+    return a / b
+
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
